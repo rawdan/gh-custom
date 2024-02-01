@@ -11,6 +11,9 @@ inputs:
   dist-folder:
     description: 'the folrder containing the deployable values'
     required: true
+outputs:
+  website-url:
+    description: 'Showcase my website url'
 runs:
   using: 'node20'
   main: 'main.js'
